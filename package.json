@@ -1,0 +1,26 @@
+{
+	"homepage": "http://KitNikit.github.io/next-todo",
+	"name": "todonext",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"predploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"next": "^11.1.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"gh-pages": "^3.2.3"
+	}
+}
