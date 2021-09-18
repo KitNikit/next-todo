@@ -9,9 +9,9 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"predploy": "npm run build",
+		"predeploy": "npm run build",
 		"export": "next export",
-		"deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
+		"deploy": "next build && touch out/.nojekyll && gh-pages -d out -t true"
 	},
 	"keywords": [],
 	"author": "",
