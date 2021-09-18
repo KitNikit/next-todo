@@ -10,7 +10,8 @@
 		"start": "next start",
 		"lint": "next lint",
 		"predploy": "npm run build",
-		"deploy": "npm run build && gh-pages -d dist"
+		"export": "next export",
+		"deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
 	},
 	"keywords": [],
 	"author": "",
